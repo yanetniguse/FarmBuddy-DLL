@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 from datetime import datetime
+import sklearn
 import matplotlib.pyplot as plt
 # =============================
 # App Configuration
@@ -803,3 +804,4 @@ with tab5:
     st.caption(
         "Tab 5 is designed as a teaching assistant — explaining outcomes, encouraging reflection, and guiding experimentation."
     )
+
