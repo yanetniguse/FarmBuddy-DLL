@@ -67,7 +67,7 @@ st.session_state.crop = st.sidebar.selectbox(
 
 st.session_state.season = st.sidebar.selectbox(
     "Season",
-    ["Kharif", "Rabi", "Whole Year"],
+    ["Automn (Kharif)", "Winter (Rabi)", "Year-round"],
     key="season_input"
 )
 
@@ -804,4 +804,5 @@ with tab5:
     st.caption(
         "Tab 5 is designed as a teaching assistant — explaining outcomes, encouraging reflection, and guiding experimentation."
     )
+
 
